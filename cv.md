@@ -1,0 +1,63 @@
+###ALENA METENEVA
+####Contacts:
+* **Discord:** nekirilova#1158
+* **Telegram:** @nekirilova
+* **email:** alenameteneva@gmail.com
+
+####About myself:
+I am a junior QA, former accountant, mother of three childeren and I hope a future frontend developer. 
+
+####Skills:
+* HTML&CSS
+* SQL
+* JavaScript
+* C#
+* Postman, Charles Proxy
+* DevTools
+* REST API
+* SWAGGER
+
+####Code example:
+```
+const puppeteer = require('puppeteer');
+
+async function testYaRu(){
+    console.log('Запуск браузера');
+    const browser = await puppeteer.launch();
+    
+    console.log('Создание новой вкладки в браузере');
+  const page = await browser.newPage();
+    
+    console.log('Переход на страницу ya.ru');
+    await page.goto('https://ya.ru/');
+    
+
+    console.log('Ввод текста "Автоматизация тестирования" в поисковую строку');
+    const searchField = await page.$('#text');
+    await searchField.type('Автоматизация тестирования');
+   
+    console.log('Клик в кнопку "Найти"');
+    const searchButton = await page.$('.button[type=submit]');
+    await searchButton.click();
+   
+    
+    console.log('Ожидание элемента с результатом');
+    await page.waitForNavigation();
+                               
+    console.log('Получение строки с результатом');
+    const result = await page.$('.serp-item');
+    console.log('Проверка условия тест-кейса');
+    if (!result) {
+        console.log('Успех. Результаты найдены');
+    }
+    else {
+        console.log('Ошибка');
+    };
+
+    console.log('Закрытие браузера');
+    await browser.close();
+   
+}
+
+testYaRu();
+```
