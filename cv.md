@@ -1,13 +1,14 @@
-###ALENA METENEVA
-####Contacts:
+### ALENA METENEVA
+
+#### Contacts:
 * **Discord:** nekirilova#1158
 * **Telegram:** @nekirilova
 * **email:** alenameteneva@gmail.com
 
-####About myself:
+#### About myself:
 I am a junior QA, former accountant, mother of three childeren and I hope a future frontend developer. 
 
-####Skills:
+#### Skills:
 * HTML&CSS
 * SQL
 * JavaScript
@@ -17,7 +18,7 @@ I am a junior QA, former accountant, mother of three childeren and I hope a futu
 * REST API
 * SWAGGER
 
-####Code example:
+#### Code example:
 ```
 const puppeteer = require('puppeteer');
 
@@ -61,3 +62,14 @@ async function testYaRu(){
 
 testYaRu();
 ```
+
+#### Experience:
+I used to work as accountant in a bank. Then I spent 7 years in maternity leave. And I began working as a junior QA in January. 
+
+#### Languages:
+* Russian
+* English (Upper-Intermediate, FCE)
+* Chezh (C1)
+* Dutch (A2)
+* Italian (A2)
+* A bit of chinese (HSK3)
