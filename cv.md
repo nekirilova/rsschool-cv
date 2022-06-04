@@ -6,7 +6,7 @@
 * **email:** alenameteneva@gmail.com
 
 #### About myself:
-I am a junior QA, former accountant, mother of three childeren and I hope a future frontend developer. 
+I am a junior QA, former accountant, mother of three childeren and I hope a future frontend developer. I spent 7 years taking care of my daughters, so ***I am highly motivated*** to become more than just a mother. I am very excited of working as QA, but I also found myself interested in HTML&CSS and JS.
 
 #### Skills:
 * HTML&CSS
@@ -64,7 +64,7 @@ testYaRu();
 ```
 
 #### Experience:
-I used to work as accountant in a bank. Then I spent 7 years in maternity leave. And I began working as a junior QA in January. 
+I used to work as accountant in a bank.  And after 7 years of maternity leave I began working as a junior QA. 
 
 #### Languages:
 * Russian
