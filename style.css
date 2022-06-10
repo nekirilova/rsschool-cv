@@ -4,7 +4,8 @@ body{
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid red;
+    border: 3px solid #000;
+    background-color: rgb(119, 186, 190);
 }
 
 * {
@@ -15,3 +16,20 @@ body{
     max-width: 1440px;
     margin: 0 auto;
   }
+
+.navigation-list{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     list-style: none;
+     
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
