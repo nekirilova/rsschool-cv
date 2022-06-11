@@ -8,7 +8,7 @@ body{
     background-color: rgb(246, 230, 172);
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: rgb(140, 80, 38);
 }
 
@@ -22,6 +22,8 @@ ul {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 40px;
+   
   }
 
   .main-container {
@@ -58,10 +60,6 @@ html {
     color: rgb(113, 33, 111);
 }
 
-#profile {
-    width: 100%;
-}
-
 
 .section {
     width: 50%;
@@ -74,6 +72,16 @@ html {
     }
   }
 
+  p {
+    line-height: 150%;
+  }
+
+  .exp-list{
+    list-style-type: none;
+    padding-left: 0;
+    
+  }
+
   .unordered {
     list-style-type: none;
     line-height: 40px;
@@ -84,6 +92,15 @@ html {
     text-decoration: none;
     
   }
+
+.list {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    background-color: rgb(197, 161, 158);
+    border-radius: 5px;
+}
+
  img {
     vertical-align: middle;
  }
