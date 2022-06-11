@@ -59,7 +59,7 @@ html {
 }
 
 #profile {
-    width: 100%
+    width: 100%;
 }
 
 
@@ -87,3 +87,9 @@ html {
  img {
     vertical-align: middle;
  }
+
+ .preformat {
+    font-size: 16px;
+ }
+
+ 
