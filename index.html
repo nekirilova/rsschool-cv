@@ -21,35 +21,109 @@
                         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                         <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
                         <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main">
             <div class="container">
-                <section class="section">
-               
+                <section class="section" id="profile">
+               <h1 class="section-title">ALENA METENEVA</h1>
             </section>
-            <section class="section">
-                <h3>Contacts:</h3>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts:</h2>
                 <ul>
-                    <li>Discord:** nekirilova#1158</li>
-                    <li>Telegram:** @nekirilova</li>
-                    <li>email:** alenameteneva@gmail.com</li>
+                    <li>Discord: nekirilova#1158</li>
+                    <li>Telegram: @nekirilova</li>
+                    <li>email: alenameteneva@gmail.com</li>
                 </ul>
             </section>
-            <section class="section">
-
+            <section class="section" id="about-myself">
+                <h2 class="section-title">About myself</h2>
+                    <p>
+                       I am a junior QA, former accountant, mother of three childeren and I hope a future frontend developer. I spent 7 years taking care of my daughters, so ***I am highly motivated*** to become more than just a mother. I am very excited of working as QA, but I also found myself interested in HTML&CSS and JS.
+                    </p>
             </section>
-            <section class="section">
-
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML&CSS</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>Postman, Charles Proxy</li>
+                        <li>DevTools</li>
+                        <li>REST API</li>
+                        <li>Swagger</li>
+                    </ul>
             </section>
-            <section class="section">
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <code>
+                    <pre>
+                        const puppeteer = require('puppeteer');
 
+async function testYaRu(){
+    console.log('Запуск браузера');
+    const browser = await puppeteer.launch();
+    
+    console.log('Создание новой вкладки в браузере');
+  const page = await browser.newPage();
+    
+    console.log('Переход на страницу ya.ru');
+    await page.goto('https://ya.ru/');
+    
+
+    console.log('Ввод текста "Автоматизация тестирования" в поисковую строку');
+    const searchField = await page.$('#text');
+    await searchField.type('Автоматизация тестирования');
+   
+    console.log('Клик в кнопку "Найти"');
+    const searchButton = await page.$('.button[type=submit]');
+    await searchButton.click();
+   
+    
+    console.log('Ожидание элемента с результатом');
+    await page.waitForNavigation();
+                               
+    console.log('Получение строки с результатом');
+    const result = await page.$('.serp-item');
+    console.log('Проверка условия тест-кейса');
+    if (!result) {
+        console.log('Успех. Результаты найдены');
+    }
+    else {
+        console.log('Ошибка');
+    };
+
+    console.log('Закрытие браузера');
+    await browser.close();
+   
+}
+
+testYaRu();
+                    </pre>
+                </code>
             </section>
-            <section class="section">
-
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                    <p>
+                        I used to work as accountant in a bank.  And after 7 years of maternity leave I began working as a junior QA
+                    </p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English (B2, FCE)</li>
+                        <li>Czech (B2)</li>
+                        <li>Italian (A2)</li>
+                        <li>Dutch (A2)</li>
+                        <li>A bit of chinese (HSK3)</li>
+                    </ul>
+                </p>
             </section>
             </div>
                    
