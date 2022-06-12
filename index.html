@@ -19,7 +19,7 @@
                         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link">About myself</a></li>
                         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                         <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                         <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                     </ul>
@@ -30,6 +30,7 @@
             <div class="container main-container">
                 <section class="section" id="profile">
                <h1 class="section-title">ALENA METENEVA</h1>
+               <h3>Front-end developer</h3>
                <img src="assets/image.png" alt="CV photo">
             </section>
 
@@ -55,55 +56,27 @@
                 </ul>
             </section>
             
-            <section class="section" id="code">
-                <details>
-                    <summary><h2 class="section-title"><a name="code">Code example</a></h2></summary>
-                    <code>
-                        <pre class="preformat">
-        const puppeteer = require('puppeteer');
-        
-        async function testYaRu(){
-        console.log('Запуск браузера');
-        const browser = await puppeteer.launch();
-        
-        console.log('Создание новой вкладки в браузере');
-        const page = await browser.newPage();
-        
-        console.log('Переход на страницу ya.ru');
-        await page.goto('https://ya.ru/');
-        
-        
-        console.log('Ввод текста "Автоматизация тестирования" в поисковую строку');
-        const searchField = await page.$('#text');
-        await searchField.type('Автоматизация тестирования');
-        
-        console.log('Клик в кнопку "Найти"');
-        const searchButton = await page.$('.button[type=submit]');
-        await searchButton.click();
-        
-        
-        console.log('Ожидание элемента с результатом');
-        await page.waitForNavigation();
-                                   
-        console.log('Получение строки с результатом');
-        const result = await page.$('.serp-item');
-        console.log('Проверка условия тест-кейса');
-        if (!result) {
-            console.log('Успех. Результаты найдены');
-        }
-        else {
-            console.log('Ошибка');
-        };
-        
-        console.log('Закрытие браузера');
-        await browser.close();
-        
-        }
-        
-        testYaRu();
-                        </pre>
-                    </code>
-                </details>
+            <section class="section" id="education">
+                
+                    <table class="table">
+                        <caption><h2 class="section-title"><a name="education">Education</a></h2></caption>
+                        <tr>
+                            <td><span class="important">June, 2022 - August, 2022</span</td>
+                            <td>JavaScript/Front-End Pre-School</td>
+                            <td><a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="important">October, 2021 - March, 2022</span></td>
+                            <td>QA Engineer</td>
+                            <td><a href="https://practicum.yandex.ru/qa-engineer/" target="_blank">Yandex School of Data Analysis</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="important">September, 2007 - June, 2012</span></td>
+                            <td>Accountancy and audit</td>
+                            <td><a href="https://urfu.ru/en/" target="_blank">URFU</a></td>
+                        </tr>
+                    </table>
+              
                
             </section>
             <section class="section" id="skills">

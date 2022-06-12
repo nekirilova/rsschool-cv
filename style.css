@@ -6,6 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
     border: 10px solid rgb(182, 106, 52);
     background-color: rgb(246, 230, 172);
+   
     width: 70%;
     margin:auto;
 }
@@ -107,8 +108,7 @@ html {
     vertical-align: middle;
  }
 
- .preformat {
-    font-size: 16px;
- }
-
+.table{
+  line-height: 140%;
+}
  
