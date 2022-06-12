@@ -1,15 +1,14 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+    justify-content:center;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     border: 10px solid rgb(182, 106, 52);
     background-color: rgb(246, 230, 172);
    
-    width: 70%;
-    margin:auto;
-}
+   }
 
 h1, h2, h3 {
     color: rgb(140, 80, 38);
@@ -23,7 +22,8 @@ ul {
 }
 
 .container {
-    max-width: 1440px;
+  
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 40px;
    
@@ -58,7 +58,7 @@ html {
 }
 
 .important {
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(113, 33, 111);
 }
 
@@ -68,11 +68,18 @@ html {
     padding: 5px;
     height: fit-content;
     
+    
 }
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
+  }
+
+  #experience {
+    width: 100%;
+    padding: 5px;
+    height: fit-content;
   }
 
   p {
@@ -110,5 +117,6 @@ html {
 
 .table{
   line-height: 140%;
+
 }
  
