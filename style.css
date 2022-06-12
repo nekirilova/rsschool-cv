@@ -57,6 +57,11 @@ html {
     
 }
 
+.nav-link:hover {
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
 .important {
     font-weight: 500;
     color: rgb(113, 33, 111);
@@ -82,6 +87,7 @@ html {
     height: fit-content;
   }
 
+  
   p {
     line-height: 150%;
   }
@@ -98,11 +104,23 @@ html {
     padding-left: 0;
   }
 
-  a {
+  a:link {
     text-decoration: none;
+    color: black;
+    
+  }
+  a:visited {
+    text-decoration: none;
+    color: rgb(174, 51, 100);
     
   }
 
+  a:hover {
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+
+  
 .list {
     width: fit-content;
     height: fit-content;
