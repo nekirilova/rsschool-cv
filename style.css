@@ -133,8 +133,10 @@ html {
     vertical-align: middle;
  }
 
- .footer {
+ .footer-class {
   display: flex;
+  flex-direction: row;
+  justify-content:space-between;
   
  }
 
