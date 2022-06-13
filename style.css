@@ -133,6 +133,15 @@ html {
     vertical-align: middle;
  }
 
+ .footer {
+  display: flex;
+  
+ }
+
+ #footer-logo {
+ height: 32px;
+  }
+  
 .table{
   line-height: 140%;
 
