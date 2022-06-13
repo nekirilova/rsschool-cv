@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: 10px solid rgb(182, 106, 52);
+    background-color: rgb(246, 230, 172);
+   
+   }
+
+h1, h2, h3 {
+    color: rgb(140, 80, 38);
+}
+
+ul {
+    padding-left: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+   
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-list{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     list-style: none;
+   
+     
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+       
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(182, 106, 52);
+   
+    
+}
+
+.nav-link:hover {
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+.important {
+    font-weight: 500;
+    color: rgb(113, 33, 111);
+}
+
+
+.section {
+    width: 50%;
+    padding: 5px;
+    height: fit-content;
+    
+    
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  #experience {
+    width: 100%;
+    padding: 5px;
+    height: fit-content;
+  }
+
+  
+  p {
+    line-height: 150%;
+  }
+
+  .exp-list{
+    list-style-type: none;
+    padding-left: 0;
+    
+  }
+
+  .unordered {
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 0;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+    
+  }
+  a:visited {
+    text-decoration: none;
+    color: rgb(174, 51, 100);
+    
+  }
+
+  a:hover {
+    transition: 0.3s;
+    color: crimson;
+    font-weight: bolder;
+  }
+
+  
+.list {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    background-color: rgb(197, 161, 158);
+    border-radius: 5px;
+}
+
+ img {
+    vertical-align: middle;
+ }
+
+ .footer-class {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+ }
+
+ #footer-logo {
+ height: 32px;
+  }
+  
+.table{
+  line-height: 140%;
+
+}
+ 
