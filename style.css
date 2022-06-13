@@ -117,6 +117,7 @@ html {
 
   a:hover {
     transition: 0.3s;
+    color: crimson;
     font-weight: bolder;
   }
 
